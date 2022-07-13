@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tai Heritage Pro', serif;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #ccccccbe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 70px;
+}
+
+.links{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.links a:hover{
+    color: gray;
+}
+
+@media (max-width: 576px){
+    .navbar .links{
+        display: none;
+    }
+}
+
+.header .title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.header .title span{
+    color: green;
+}
+
+.example-quotes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.example-quotes .quote-1{
+    width: 350px;
+    background-color: rgb(59, 56, 56);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.example-quotes .quote-1 .author{
+    margin-left: 200px;
+}
+
+@media (max-width: 576px){
+    .header .title{
+        font-size: 30px;
+    }
+
+    .header .example-quotes{
+        width: 100px;
+        display: flex;
+        flex-wrap:  wrap;
+        margin: auto;
+    }
+
+    .header .quote-1{
+        margin-top: 10px;
+    }
+}
+
+
+#author-names{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.author-chip{
+    padding: 10px 10px;
+    background-color: rgb(206, 253, 206);
+    color: green;
+    border-radius: 45px;
+    margin-top: 10px;
+}
+
+.flex-class{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.common-quote{
+    width: 350px;
+    background-color: rgb(59, 56, 56);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.author-name{
+    margin-left: 200px;
+}
+
+.d-none{
+    display: none;
+}
+
+#requested-quotes{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.dropdown{
+    font-size: 16px;
+    border: none;
+    margin-left: 1100px;
+}
+
+.dropdown:focus{
+    outline: none;
+}
